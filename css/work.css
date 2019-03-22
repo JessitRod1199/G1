@@ -1,0 +1,261 @@
+
+@font-face {
+  font-family: Sanseriffic;
+  src: url('../fonts/Sanseriffic/Sanseriffic.otf'); 
+}
+
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url('../fonts/raleway/Raleway-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url('../fonts/raleway/Raleway-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url('../fonts/raleway/Raleway-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('../fonts/raleway/Raleway-Bold.ttf'); 
+}
+
+
+
+
+
+body{
+	width: 100%;
+	margin: 0px;
+}
+
+h1{
+	font-size: 30px; 
+}
+
+h1:hover{
+	opacity: 0.5;
+}
+
+h3:hover{
+	opacity: 0.5;
+}
+
+
+h1{
+	font-size: 35px;
+}
+
+h3{
+	font-size: 25px;
+	font-weight: bold;
+
+}
+html{
+	font-family: Sanseriffic;
+}
+.cont-menu{
+	background-color: white;
+	width: 20%;
+	height: 500px;
+	font-family: Sanseriffic;
+	text-align: center;
+	float: left;
+}
+
+.logos{
+	margin-left: 15px;
+}
+
+li{
+	list-style:none;
+
+}
+
+a{
+
+text-decoration: none;
+color: #8E918C;
+font-weight: bold;
+}
+<footer>https://matthias.myportfolio.com/systems-layers-iii</footer>
+
+
+
+
+#fotos{
+
+	margin-left:  30px;
+	width: 100%;
+	height: 450px;
+}
+
+img{
+	background-color: white;
+}
+.logos{
+	margin-top: 100px;
+	background-color: white;
+	width: 200px;
+	height: 60px;
+	
+}
+
+.logos img{
+opacity: 0.5;
+}
+
+.logos img:hover{
+opacity: 90;
+}
+
+footer{
+	background-color: pink;
+	margin-top:100px;
+	float: right;
+}
+
+.cont-menu ul li{
+	text-align: center;
+}
+
+.cont-menu h3{
+	text-align: center;
+}
+
+.cont-menu h1{
+	text-align: center;
+}
+
+
+
+ a:hover{
+	color: #000000;
+}
+
+
+
+ ul li{margin-bottom: 0.1px;}
+
+p{
+	text-align: center;
+}
+
+.img1{
+	
+	margin-left: 80px;
+
+}
+
+.img3{
+	
+	margin-left: 325px;
+}
+
+.cont-menu h3{
+	-webkit-animation: tracking-out-contract 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: tracking-out-contract 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+
+
+.img1{
+	
+	-webkit-animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+.img2{
+	
+	-webkit-animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.img3{
+	
+	-webkit-animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.img4{
+	
+	-webkit-animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+.cont-menu h1{ 
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+ }
+
+
+----------------------------------
+ */
+@-webkit-keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    color: #55A5BF;
+  }
+  100% {
+    color: #396E7F;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    color: #1C3740;
+  }
+  100% {
+    color: #66C6E5;
+  }
+}
+
